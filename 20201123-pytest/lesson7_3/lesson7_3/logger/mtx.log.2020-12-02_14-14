@@ -1,0 +1,38 @@
+2020-12-02 14:14:04,346 INFO [root] [apiLogin.py (__init__:12] - 开始获取login的url地址:
+2020-12-02 14:14:04,348 INFO [root] [apiLogin.py (__init__:14] - login的url地址是http://121.42.15.146:9090//mtx/index.php?s=/index/user/login.html
+2020-12-02 14:14:04,350 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求，请求的参数是{'accounts': 'yaoyao', 'pwd': ''},header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 14:14:04,546 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 14:14:04,553 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求，请求的参数是{'accounts': '', 'pwd': 'yaoyao'},header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 14:14:04,682 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 14:14:04,692 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求，请求的参数是{'accounts': 'lwx', 'pwd': 'yaoyao'},header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 14:14:04,964 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 14:14:04,978 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求，请求的参数是{'accounts': 'yaoyao', 'pwd': '123456'},header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 14:14:05,110 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 14:14:05,127 INFO [root] [apiOrder.py (__init__:8] - 开始获取订单提交接口URL
+2020-12-02 14:14:05,127 INFO [root] [apiOrder.py (__init__:10] - 订单提交接口的URL是：http://121.42.15.146:9090//mtx/index.php?s=/index/buy/add.html
+2020-12-02 14:14:05,127 INFO [root] [apiLogin.py (__init__:12] - 开始获取login的url地址:
+2020-12-02 14:14:05,128 INFO [root] [apiLogin.py (__init__:14] - login的url地址是http://121.42.15.146:9090//mtx/index.php?s=/index/user/login.html
+2020-12-02 14:14:05,128 INFO [root] [apiLogin.py (login_success:36] - 准备发起成功的login的请求:
+2020-12-02 14:14:05,128 INFO [root] [apiLogin.py (login_success:38] - 成功的请求的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-12-02 14:14:05,367 INFO [root] [apiLogin.py (login_success:40] - 成功的请求的响应值是<Response [200]>
+2020-12-02 14:14:05,368 INFO [root] [apiOrder.py (order:19] - 开始获取订单提交接口的data
+2020-12-02 14:14:05,368 INFO [root] [apiOrder.py (order:29] - 开始发送订单提交请求，请求data是{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}，headers是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 14:14:05,799 INFO [root] [apiOrder.py (order:31] - 获取订单提交响应是{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '6647', 'order_no': '20201202141406807376', 'user_id': '151', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '2100.00', 'total_price': '2100.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1606889646', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1606889646', 'upd_time': '0'}, 'jump_url': 'http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/6647.html'}}
+2020-12-02 14:14:05,800 INFO [root] [apiOrder.py (order:34] - 获取订单提交响应的JUMP_URL是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/6647.html
+2020-12-02 14:14:05,806 INFO [root] [apiLogin.py (__init__:12] - 开始获取login的url地址:
+2020-12-02 14:14:05,806 INFO [root] [apiLogin.py (__init__:14] - login的url地址是http://121.42.15.146:9090//mtx/index.php?s=/index/user/login.html
+2020-12-02 14:14:05,806 INFO [root] [apiLogin.py (login_success:36] - 准备发起成功的login的请求:
+2020-12-02 14:14:05,806 INFO [root] [apiLogin.py (login_success:38] - 成功的请求的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-12-02 14:14:06,011 INFO [root] [apiLogin.py (login_success:40] - 成功的请求的响应值是<Response [200]>
+2020-12-02 14:14:06,011 INFO [root] [apiOrder.py (__init__:8] - 开始获取订单提交接口URL
+2020-12-02 14:14:06,011 INFO [root] [apiOrder.py (__init__:10] - 订单提交接口的URL是：http://121.42.15.146:9090//mtx/index.php?s=/index/buy/add.html
+2020-12-02 14:14:06,011 INFO [root] [apiOrder.py (order:19] - 开始获取订单提交接口的data
+2020-12-02 14:14:06,011 INFO [root] [apiOrder.py (order:29] - 开始发送订单提交请求，请求data是{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}，headers是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 14:14:06,173 INFO [root] [apiOrder.py (order:31] - 获取订单提交响应是{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '6648', 'order_no': '20201202141406971466', 'user_id': '151', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '2100.00', 'total_price': '2100.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1606889646', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1606889646', 'upd_time': '0'}, 'jump_url': 'http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/6648.html'}}
+2020-12-02 14:14:06,174 INFO [root] [apiOrder.py (order:34] - 获取订单提交响应的JUMP_URL是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/6648.html
+2020-12-02 14:14:06,174 INFO [root] [apiPay.py (__init__:6] - 即将开始获取支付订单接口的url
+2020-12-02 14:14:06,174 INFO [root] [apiPay.py (__init__:8] - 支付订单接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/6648.html
+2020-12-02 14:14:06,175 INFO [root] [apiPay.py (pay:12] - 开始发送支付订单接口的请求
+2020-12-02 14:14:06,365 INFO [root] [apiPay.py (pay:16] - 获取到支付订单的接口响应是<Response [302]>
+2020-12-02 14:14:06,365 INFO [root] [apiPay.py (pay:17] - 开始获取支付订单接口的响应头信息中的locationlocationhttp://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201202141406971466&subject=è®¢åæ¯ä»&total_price=2100.00，并对其发起请求
+2020-12-02 14:14:07,647 INFO [root] [apiPay.py (pay:19] - 获取支付订单接口location请求的响应：<Response [200]>
